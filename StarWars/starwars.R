@@ -1,6 +1,4 @@
 rm(list=ls())
-library(plyr)
-library(dplyr)
 library(tidyverse)
 
 sw <- read_csv("StarWars.csv", skip = 0)
