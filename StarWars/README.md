@@ -8,6 +8,7 @@ Major takeaway: Did not learn very much.
 
 * People who say Greedo shot first and people who say Han shot first have very similar orderings for how much they liked each movie. 
 * People who don't understand the question seem to rank episodes 1-3 higher. 
+* Violin plots combined with facet_grid aren't a fantastic way to display this data. It makes it look like there are many more people who liked eps 1-3 than the full dataset shows.
 
 So, I thought it might be an age thing. 
 
@@ -21,4 +22,4 @@ So, I thought it might be an age thing.
 Missing data accounted for a huge part of this dataset. Omitting NAs was probably not a methodologically sound thing to do here. 
 
 ### Conclusion
-I got nothin'.
+I got nothin'. Could probably do more with a little more digging, but I'm relatively happy with what I've learned today already. Going to leave it here with "Further exploration is needed to tease out differences between people who think Greedo shot first and people who think Han shot first."
