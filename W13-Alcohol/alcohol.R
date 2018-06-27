@@ -61,3 +61,7 @@ winemap <- ggplot() + geom_polygon(data = alcoholmapdata, aes(x=long, y = lat, g
 spiritmap <- ggplot() + geom_polygon(data = alcoholmapdata, aes(x=long, y = lat, group = group, fill = spirit_servings)) + 
   coord_fixed(1.3) + theme(axis.text = element_blank(), axis.line = element_blank(), axis.ticks = element_blank(), panel.border = element_blank(), panel.background = element_blank(), panel.grid = element_blank(), axis.title = element_blank()
   ) + scale_fill_gradientn(colours = spirit_color, name = "Servings of Spirits") + ggtitle("Per Capita Spirit Consumption")
+
+ggsave("beer.png", beermap, dpi = 300)
+ggsave("wine.png", winemap, dpi = 300)
+ggsave("spirit.png", spiritmap, dpi = 300)
