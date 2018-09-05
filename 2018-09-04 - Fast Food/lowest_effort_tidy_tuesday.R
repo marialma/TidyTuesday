@@ -1,0 +1,5 @@
+setwd("~/Documents/GitHub/TidyTuesday/2018-09-04 - Fast Food")
+rm(list=ls())
+ff <- read.csv("fastfood_calories.csv")
+ggplot(ff, aes(restaurant, total_fat)) + geom_boxplot() + theme_bw()
+ggplot(ff, aes(restaurant, sodium)) + geom_boxplot() + theme_bw()
